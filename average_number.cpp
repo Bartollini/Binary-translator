@@ -52,7 +52,7 @@ int main()
     }
 
     cout<<"Most close to average is: "<<table[pointer];
-    if (table[po] != table[pointer] )
+    if (table[po] != table[pointer] && table[po]!=table[0] )
     {
         cout<<" and: "<<table[po];
     }
